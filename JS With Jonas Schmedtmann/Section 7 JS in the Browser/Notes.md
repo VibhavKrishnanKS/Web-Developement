@@ -31,4 +31,4 @@ OUTPUT
 ```TXT
 Start guessing...      
 ```
-The (.textContent) -> is used to view the Text that is inside the respective element that is selected      
+The (.textContent) -> is used to view the Text that is inside the respective element that is selected    
