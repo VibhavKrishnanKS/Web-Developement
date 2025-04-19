@@ -1,7 +1,7 @@
 # 6. Hello World
 
 1. Different Ways to go to the Javacript log    
-    A. **Keyboard Shortcut** - **Ctrl + Shift + J** (This is used to open the **JS Console**)   
+    A. **Keyboard Shortcut** - **Ctrl + Shift + J** (This is used to open the **JS Console**)    
     B. In order to open the **inspect element** - we use **Ctrl + Shift + I** (which is used to **inspect the element**) - This is for inspect element so it can be ignored(Just for our learning)  
     C. **Right click** on the page and **choose the inpect option**  
     D. Chrome Menu -> View -> Developer -> JavaScript Console

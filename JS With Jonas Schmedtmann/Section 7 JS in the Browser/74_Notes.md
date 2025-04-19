@@ -1,4 +1,4 @@
-# 72. PROJECT #1: Guess My Number!
+# 74. PROJECT #1: Guess My Number!
 
 In this video we just establish a connection between our code and the user interface        
 
@@ -29,6 +29,6 @@ console.log(document.querySelector('.message').textContent);
 ```
 OUTPUT
 ```TXT
-Start guessing... 
+Start guessing...      
 ```
 The (.textContent) -> is used to view the Text that is inside the respective element that is selected
