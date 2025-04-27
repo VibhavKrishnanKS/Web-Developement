@@ -26,5 +26,5 @@ overlay.addEventListener('click', closeModal);
 // The below function will be executed for any key press that happens
 document.addEventListener('keydown', function (e) {
     // console.log('A Key was pressed!');
-    console.log(e);
+    console.log(e.key); // This will give the key that was pressed
 })
