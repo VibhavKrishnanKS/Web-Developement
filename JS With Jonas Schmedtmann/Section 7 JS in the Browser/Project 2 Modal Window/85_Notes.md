@@ -10,6 +10,7 @@ There are three types of keyboard events that are possible
 ```JS
 // Below one is applied to the whole document, so it will work for all the buttons. No matter where they happen on the page. The Event handler will be called for all the buttons.
 // The below function will be executed for any key press that happens
+// Also the below function accepts an event as an argument
 document.addEventListener('keydown', function (e) {
     // console.log('A Key was pressed!');
     console.log(e);
@@ -24,6 +25,7 @@ For which the code is given below
 ```JS
 // Below one is applied to the whole document, so it will work for all the buttons. No matter where they happen on the page. The Event handler will be called for all the buttons.
 // The below function will be executed for any key press that happens
+// Also the below function accepts an event as an argument
 document.addEventListener('keydown', function (e) {
     // console.log('A Key was pressed!');
     console.log(e.key); // This will give the key that was pressed
