@@ -27,4 +27,12 @@ overlay.addEventListener('click', closeModal);
 document.addEventListener('keydown', function (e) {
     // console.log('A Key was pressed!');
     console.log(e.key); // This will give the key that was pressed
+
+    if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+        // This will check if the modal is not hidden and if the key pressed is Escape
+        console.log('Escape was pressed!');
+        // Also why we use (), because we need to execute the function, not just call it. If we don't use () it will just return the function and not execute it.
+        // So we need to call the function to execute it. So we use () to call the function.
+        closeModal();
+    }
 })
