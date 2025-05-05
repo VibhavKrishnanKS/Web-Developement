@@ -28,8 +28,3 @@ for(let i = 0; i < btnsOpenModel.length; i++){
 }
 ```
 Now if we use the above approach we would be able to **access a group of elements** for a specific class which are accessed using the **querySelectorAll()**
-
-
-
-
-
